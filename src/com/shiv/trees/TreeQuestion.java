@@ -129,5 +129,28 @@ public class TreeQuestion {
         return ans;
     }
 
+
+    public TreeNode invertTree(TreeNode root) {
+        if(root == null){
+            return null;
+
+        }
+
+        TreeNode left = invertTree(root.left);
+        TreeNode right = invertTree(root.right);
+        root.left = right;
+        root.right = left;
+        return root;
+    }
+
+    public int maxDepth(TreeNode root) {
+        if(root == null){
+            return 0;
+        }
+        int left = maxDepth(root.left);
+        int right = maxDepth(root.right);
+        return Math.max(left,right)+1;
+    }
+
 }
 

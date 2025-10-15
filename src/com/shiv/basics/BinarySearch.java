@@ -1,4 +1,4 @@
-package com.shiv;
+package com.shiv.basics;
 
 /**
  * BinarySearch class contains implementations of:

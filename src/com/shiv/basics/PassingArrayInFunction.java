@@ -1,4 +1,4 @@
-package com.shiv;
+package com.shiv.basics;
 
 import java.util.Arrays;
 

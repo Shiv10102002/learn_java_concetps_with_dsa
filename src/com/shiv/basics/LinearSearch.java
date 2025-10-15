@@ -1,4 +1,4 @@
-package com.shiv;
+package com.shiv.basics;
 
 /**
  * LinearSearch class to demonstrate the linear search algorithm.

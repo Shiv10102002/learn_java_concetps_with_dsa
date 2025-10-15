@@ -1,4 +1,4 @@
-package com.shiv;
+package com.shiv.collections;
 
 import java.util.ArrayList;
 import java.util.Collections;
